@@ -1,0 +1,6 @@
+<div class="player">
+  <h3>Quiz</h3>
+  <ng-template question-host></ng-template>
+</div>
+<button class="btn-player"  (click)="getNextQuestion()">Next</button>
+<app-mcq [question] = "question"></app-mcq>
